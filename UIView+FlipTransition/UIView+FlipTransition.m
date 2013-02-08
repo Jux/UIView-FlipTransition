@@ -15,8 +15,8 @@
 	firstView.layer.doubleSided = NO;
 	secondView.layer.doubleSided = NO;
 	
-	firstView.layer.zPosition = firstView.layer.bounds.size.width / 2;
-	secondView.layer.zPosition = secondView.layer.bounds.size.width / 2;
+	firstView.layer.zPosition = firstView.layer.bounds.size.width / 2.0f;
+	secondView.layer.zPosition = secondView.layer.bounds.size.width / 2.0f;
 	
 	CATransform3D transform = CATransform3DIdentity;
     transform.m34 = -1.0f/500.0f;
